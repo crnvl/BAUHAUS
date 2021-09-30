@@ -13,9 +13,9 @@ function Canvas() {
                         </InputGroup>
                     </Col>
                     <Col lg={8}>
-                        <Stage>
+                        <Stage width={'100%'} height={'100%'}>
                             <Layer>
-
+                                <Text text="Try click on rect" />
                             </Layer>
                         </Stage>
                     </Col>
